@@ -142,7 +142,10 @@ img{
     justify-content: center;
     align-items: center;
 }
-.spinner-button a{
+.spinner-button:active{
+    transform: scale(0.9);
+}
+.spinner-button button{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -153,7 +156,7 @@ img{
     border:2px  var(--bg-light-black) solid;
     padding:10px 20px 10px 20px;
 }
-.spinner-button a:hover{
+.spinner-button button:hover{
     color: var(--white);
     background-color: var(--bg-light-black);
     transition: all .4s linear;
